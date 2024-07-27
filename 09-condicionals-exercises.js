@@ -11,13 +11,20 @@ if (user == "Olivia23" && pass == "Wildd3") {
     console.log("Usuario y contraceña válido")
 } else if (user != "Olivia23") {
     console.log ("Usuario  incorrecto")
-}else  {
+} else  {
     console.log("contraceña incorrecta")
 }
 
-
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
+let numero = 5
 
+if (numero > 0 ) {
+    console.log("Es un número positivo")
+} else if (numero > 0) {
+    console.log("Es un número negativo")
+} else {
+    console.log("Es Cero")
+}
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
