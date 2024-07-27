@@ -16,11 +16,11 @@ if (user == "Olivia23" && pass == "Wildd3") {
 }
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
-let numero = 5
+let numero = 0
 
 if (numero > 0 ) {
     console.log("Es un número positivo")
-} else if (numero > 0) {
+} else if (numero != 0) {
     console.log("Es un número negativo")
 } else {
     console.log("Es Cero")
