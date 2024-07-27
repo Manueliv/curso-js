@@ -1,7 +1,13 @@
 // if/else/else if/ternaria
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
+let myVariable = 3
 
+if (myVariable == 3){
+    console.log("Manuel")
+}else {
+    console.log("Otro nombre")
+}
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 let user = "Olivia23"
