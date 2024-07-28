@@ -120,7 +120,7 @@ switch (lenguage){
 }
 console.log(saludo)
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
-let mesS = "octubre"
+let mesS = "diciembre"
 let estacion2 
 
 switch (mesS) {
@@ -143,9 +143,50 @@ switch (mesS) {
     case "enero":
     case "febrero":
         estacion2 = "En diciembre , enero, y febrero es invierno"
+        break
         default:
             estacion2 = "otra estacion" 
 }
 
 console.log(estacion2)
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+let diaS
+switch (mesS) {
+    case "enero":
+        diaS = "Enero tiene 31 días"
+        break
+    case "febrero":
+        diaS = "Febrero tiene 28 días ó 29 en año bisiesto"
+        break
+    case "marzo":
+        diaS = "Marzo tien 31 días"
+        break
+    case "abril":
+        diaS = "Abril tiene 30 días"
+        break
+    case "mayo":
+        diaS = "Mayo tiene 31 dás"
+        break
+    case "junio":
+        diaS = " Junio tiene 30 días"
+        break
+    case "julio":
+        diaS = "Julio tiene 31 días"
+        break
+    case "agosto":
+        diaS = "Agosto tiene 31 días"
+        break
+    case "septiembre":
+        diaS = "Septiembre tiene 30 días"
+        break
+    case "octubre":
+        diaS = "Octubre tiene 31 días"
+        break
+    case "novienbre":
+        diaS = "Noviembre tiene 30 días"
+    default:
+        diaS = "Diciembre tiene 31 días"
+
+}
+console.log(diaS)
