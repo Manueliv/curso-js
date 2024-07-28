@@ -121,7 +121,7 @@ switch (lenguage){
 }
 console.log(saludo)
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
-let mesS = "diciembre"
+let mesS = "noviembre"
 let estacion2 
 
 switch (mesS) {
@@ -184,8 +184,9 @@ switch (mesS) {
     case "octubre":
         diaS = "Octubre tiene 31 días"
         break
-    case "novienbre":
+    case "noviembre":
         diaS = "Noviembre tiene 30 días"
+        break
     default:
         diaS = "Diciembre tiene 31 días"
 
