@@ -51,15 +51,15 @@ let c = edad >= 18
 c ? console.log(a = "Es adulto") : console.log(b = "Menor")
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
-let mes = "enero"
+let mes = "julio"
 
-if (mes = "marzo" ||"abril" || "mayo"  ){
+if (mes === "marzo" || mes ==="abril" || mes === "mayo"  ){
     console.log("Es primavera")
-}else if (mes = "junio" || "julio" || "agosto") {
+}else if (mes === "junio" || mes === "julio" || mes === "agosto") {
     console.log("Es verano")
-}else if (mes = "septiembre" || "octubre" || "noviembre") {
+}else if (mes === "septiembre" || mes === "octubre" || mes === "noviembre") {
     console.log("Es otoño")
-}else if (mes = "diciembre" || "enero" || "febreo") {
+}else if (mes === "diciembre" || mes === "enero" || mes ==="febreo") {
     console.log("Es invierno")
 } else ("Mes no válido")
 
