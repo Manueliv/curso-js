@@ -120,5 +120,32 @@ switch (lenguage){
 }
 console.log(saludo)
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
+let mesS = "octubre"
+let estacion2 
 
+switch (mesS) {
+    case "marzo":
+    case "abril":
+    case "mayo":
+        estacion2 = "En marzo, abril y mayo es primavera"
+        break
+    case "junio":
+    case "julio":
+    case "agosto":
+        estacion2 = "En junio, julio, y agosto es verano"
+        break
+    case "septiembre":
+    case "octubre":
+    case "noviembre":
+        estacion2 = "En septiembre, octubre y noviembre es otoño"
+        break
+    case "diciembre":
+    case "enero":
+    case "febrero":
+        estacion2 = "En diciembre , enero, y febrero es invierno"
+        default:
+            estacion2 = "otra estacion" 
+}
+
+console.log(estacion2)
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
