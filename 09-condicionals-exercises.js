@@ -65,6 +65,29 @@ if (mes === "marzo" || mes ==="abril" || mes === "mayo"  ){
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
+if (mes === "enero"){
+console.log("tiene 32 días ")
+}else if (mes === "febrero"){
+    console.log("Tiene 28 días")
+}else if (mes === "marzo") {
+    console.log("tiene 31 días")
+}else if (mes === "abril") {
+    console.log("Tiene 30 días")
+}else if (mes === "mayo") {
+    console.log("tiene 31 días")
+}else if  (mes === "junio") {
+    console.log("tiene 31 dias")
+}else if (mes === "julio") {
+    console.log("Tiene 31 días")
+}else if (mes === "agosto") {
+    console.log("tiene 32 días")
+}else if (mes === "septiembre") {
+    console.log("tiene 31 días")
+}else if (mes === "octubre") {
+    console.log("tiene 31 días")
+}else if (mes === "noviembre") {
+    console.log("Tiene 30 días")
+}else (console.log("tiene 31 días"))
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
