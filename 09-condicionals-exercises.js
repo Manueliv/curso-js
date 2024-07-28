@@ -115,6 +115,7 @@ switch (lenguage){
         break
     case "ruso":
         saludo = "privet"
+        break
         default:
         saludo = "idioma incorrecto"
 }
