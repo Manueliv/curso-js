@@ -91,7 +91,34 @@ console.log("tiene 32 días ")
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+let lenguage = "japones"
+let saludo
 
+switch (lenguage){
+    case "ingles":
+        saludo = "Hello, how are you"
+        break
+    case "frances":
+        saludo = "Bonjour"
+        break
+    case "japones":
+        saludo = "konnichiwa"
+        break
+    case "chino":
+        saludo = "Nǐ hǎo"
+        break
+    case "italiano":
+        saludo = "buongiorno"
+        break
+    case "aleman":
+        saludo = "hallo"
+        break
+    case "ruso":
+        saludo = "privet"
+        default:
+        saludo = "idioma incorrecto"
+}
+console.log(saludo)
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
