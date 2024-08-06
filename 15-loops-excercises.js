@@ -22,6 +22,11 @@ while (i <= 50) {
 }
 
 // 4. Dado un array de nombres, usa un bucle para imprimir cada nombre en la consola
+let nombres = ["Reina", "Gemma", "Liv", "Nicolle", "Arwen", "Kate" ]
+
+for (let i = 0; i < nombres.length; i++) {
+    console.log(nombres[i])
+}
 
 // 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
 
