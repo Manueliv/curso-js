@@ -29,7 +29,10 @@ for (let i = 0; i < nombres.length; i++) {
 }
 
 // 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
-
+let cadena = "Esta es una cadena de texto, para utilizar para contar el número de vocales"
+while (cadena === "a" || "e" || "i" || "o" || "u")[
+console.log()
+]
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
