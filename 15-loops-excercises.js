@@ -41,8 +41,19 @@ for (let i of cadena.toLocaleLowerCase()) {
 console.log(`El numero de vocales:  ${numeroVocales}`)
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
+let arraynumeros = [2, 5, 4, 3,2]
+let multiplicar = 1
 
+for (let t = 0;  t <arraynumeros.length; t++) {
+    multiplicar = multiplicar * arraynumeros[t]
+    }
+    console.log(multiplicar)
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
+let tabla = 5
+
+for (i = 1; i< 11; i++) {
+    console.log( "5 x " + i + " = " + tabla * i )
+}
 
 // 8. Usa un bucle para invertir una cadena de texto
 
