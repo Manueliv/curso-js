@@ -56,7 +56,12 @@ for (i = 1; i< 11; i++) {
 }
 
 // 8. Usa un bucle para invertir una cadena de texto
-
+let cadenaTexto = "Cadena de texto para invertir con un loops"
+let cadenaInvertida = ""
+for (let i = cadenaTexto.length-1; i>=0; i--) {
+   cadenaInvertida += cadenaTexto[i]
+}
+console.log(cadenaInvertida)
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
