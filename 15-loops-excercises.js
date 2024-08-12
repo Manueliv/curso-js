@@ -63,5 +63,25 @@ for (let i = cadenaTexto.length-1; i>=0; i--) {
 }
 console.log(cadenaInvertida)
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+// fibonacci con array y for
+let fibo = [0, 1]
 
+for (let i = 2; i < 10; i++) {
+    fibo[i] = fibo[i - 1] + fibo[i -2]
+}
+console.log(fibo)
+
+// fibonacci solo con for 
+let fibonacci = 0
+let numeronew = 0
+let numeroSiguiente = 1
+console.log("cadena de fibonacci:")
+
+for (let i = 0; i < 10; i++) {
+    fibonacci = fibonacci  + numeronew
+    numeronew = numeroSiguiente
+    numeroSiguiente = fibonacci
+    console.log(fibonacci)
+}
+ 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
