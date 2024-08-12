@@ -44,8 +44,8 @@ console.log(`El numero de vocales:  ${numeroVocales}`)
 let arraynumeros = [2, 5, 4, 3,2]
 let multiplicar = 1
 
-for (let t = 0;  t <arraynumeros.length; t++) {
-    multiplicar = multiplicar * arraynumeros[t]
+for (let i = 0;  i <arraynumeros.length; i++) {
+    multiplicar = multiplicar * arraynumeros[i]
     }
     console.log(multiplicar)
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
@@ -85,3 +85,12 @@ for (let i = 0; i < 10; i++) {
 }
  
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+let arrayNum = [14, 25, 3, 8, 5, 7, 19, 10 ]
+let newArray = []
+
+for (let i = 0; i < arrayNum.length; i++) {
+    if (arrayNum[i] > 10){
+        newArray.push(arrayNum[i])
+    }
+}
+console.log(newArray)
