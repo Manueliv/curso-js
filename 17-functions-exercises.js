@@ -24,8 +24,21 @@ function numMayor() {
     return result
    }
 console.log(numMayor())
-// 3. Crea una función que reciba un string y devuelva el número de vocales que contiene
 
+// 3. Crea una función que reciba un string y devuelva el número de vocales que contiene
+let cadena = "Esta es una cadena de texto, para utilizar para contar el número de vocales"
+let vocales = ["a", "á", "e", "é", "i", "í", "o", "ó", "u", "ú" ]
+let numeroVocales = 0
+
+function vocalNum() {
+    for (let i of cadena.toLocaleLowerCase()) {
+        if (vocales.includes(i)){
+          numeroVocales = numeroVocales + 1
+        }
+    }
+}
+let num = vocalNum()
+console.log(`El numero de vocales del estring es : ${num}`)
 // 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas
 
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
