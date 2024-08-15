@@ -36,11 +36,23 @@ function vocalNum() {
           numeroVocales = numeroVocales + 1
         }
     }
+    return numeroVocales
 }
-let num = vocalNum()
-console.log(`El numero de vocales del estring es : ${num}`)
-// 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas
 
+let num = vocalNum()
+console.log(`El numero de vocales del estring es: ${num} , obtenido usando una función` )
+
+// 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas
+let peliculas = ["star wars", "samson y dalyla", "sleepey hollow", "the lord of the rings"]
+
+function convertirAMayus (peliculas) {
+    for (i = 0; i < peliculas.length; i++) {
+        peliculas[i] = peliculas[i].toUpperCase()
+    }
+    return peliculas
+}
+peliculas = convertirAMayus(peliculas)
+console.log(peliculas)
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
 
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
