@@ -53,7 +53,19 @@ function convertirAMayus (peliculas) {
 }
 peliculas = convertirAMayus(peliculas)
 console.log(peliculas)
+
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
+function esPrimo(numero) {
+    for (var i = 2; i < numero; i++) {
+      if (numero % i === 0) {
+        return false;
+      }
+    }
+    return numero !== 1;
+    
+  }
+   console.log(esPrimo(4))
+  
 
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
 
