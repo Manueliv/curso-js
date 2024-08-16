@@ -5,8 +5,9 @@ let nuevoArray = []
 
 function comunes() {
     for (i = 0; i < array1.length; i++)
-        if (array1[array1.i] == array2[i]) {
-            nuevoArray.push(array2[i-1])     
+        
+        if (array1[3] == array2[i]) {
+            nuevoArray.push(array2[i])     
         }return nuevoArray
 
        
