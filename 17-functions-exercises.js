@@ -106,7 +106,24 @@ function comunes() {
         return nuevoArray
 }
 console.log(comunes()) */
+
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
+let arrayDeNumeros = [3, 57, 40, 8, 9, 13, 10, 5, 15]
+let numPares = []
+let sumaPares = 0
+
+function sumaParesArray() {
+for (i = 0; i < arrayDeNumeros.length; i++){
+    if (arrayDeNumeros[i] % 2 === 0){
+        numPares.push(arrayDeNumeros[i])
+        sumaPares = sumaPares + arrayDeNumeros[i]
+    }
+}  return sumaPares
+
+}
+let resulSuma = sumaParesArray()
+console.log(resulSuma)
+
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
 
