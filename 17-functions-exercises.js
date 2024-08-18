@@ -69,6 +69,20 @@ function esPrimo(numero) {
 
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
 let array1 = [23, 14 , 51, 47, 55, 10, 11]
+let array2 = [ 40, 57, 47, 11, 3, 55, 8,]
+
+function comunes(array1, array2) {
+    let nuevoArray = []
+    for (i = 0; i < array1.length; i++){
+        if (array2.indexOf(array1[i]) !==-1 && nuevoArray.indexOf(array1[i]) ===-1) {
+            nuevoArray.push(array1[i])     
+        }
+    }
+    return nuevoArray
+}
+let resultado = comunes(array1, array2)
+console.log(resultado)
+/* let array1 = [23, 14 , 51, 47, 55, 10, 11]
 let array2 = [ 40, 57, 47, 11, 3, 55, 8, 13]
 let nuevoArray = []
 function comunes() {
@@ -89,10 +103,8 @@ function comunes() {
             nuevoArray.push(array2[i])
         }
         return nuevoArray
-
-       
 }
-console.log(comunes())
+console.log(comunes()) */
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
