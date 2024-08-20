@@ -108,7 +108,7 @@ function comunes() {
 console.log(comunes()) */
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
-let arrayDeNumeros = [3, 57, 40, 8, 9, 13, 10, 5, 15]
+let arrayDeNumeros = [3, 57, 40, 8, 9, 13, 10, 5, 15, 2]
 let numPares = []
 let sumaPares = 0
 
@@ -126,6 +126,18 @@ console.log(resulSuma)
 
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
+let numAlCuadrado = []
+
+function arrayAlCuadrado(array) {
+    for (let i = 0; i < array.length; i++) {
+      numAlCuadrado.push( Math.pow(array[i], 2))
+      }
+    
+    return numAlCuadrado
+    
+  }
+
+   console.log(arrayAlCuadrado([2, 3, 5]))
 
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
 
