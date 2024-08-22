@@ -153,3 +153,11 @@ function invertirCadena(cadenaT){
 console.log(invertirCadena("cadena de texto para invertir el orden"))
 
 // 10. Crea una función que calcule el factorial de un número dado
+resultadoFacto = 0
+function factorial(numeroIngresado){
+    for (let i= numeroIngresado -1; i>0 ; i--){
+        resultadoFacto = numeroIngresado * i
+        numeroIngresado = resultadoFacto
+    }return resultadoFacto
+}
+console.log(factorial(5))
