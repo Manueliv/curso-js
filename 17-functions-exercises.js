@@ -140,5 +140,16 @@ function arrayAlCuadrado(array) {
    console.log(arrayAlCuadrado([2, 3, 5]))
 
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
+let palabrasInv = []
+function invertirCadena(cadenaT){
+    let cadenaTexto = cadenaT.split(/\s+/)
+
+    for (let i = cadenaTexto.length-1; i>=0; i--){
+        palabrasInv += cadenaTexto[i] + " "
+
+    }return palabrasInv
+
+}
+console.log(invertirCadena("cadena de texto para invertir el orden"))
 
 // 10. Crea una función que calcule el factorial de un número dado
