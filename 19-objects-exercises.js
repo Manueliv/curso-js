@@ -30,6 +30,17 @@ for (let key in actriz2) {
     console.log(key + ": " + actriz2[key])
 }
 // 7. Crea un objeto anidado
+let  objetoAnidado = {
+    articulo: "Celular",
+    color: "rojo",
+    modelo: "xr",
+
+    caracteristicas: {
+        almacenamiento: 65,
+        procesador: "A12 bionic",
+        softwareVersion: 15,
+    }
+}
 
 // 8. Accede y muestra el valor de las propiedades anidadas
 
