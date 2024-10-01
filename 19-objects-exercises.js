@@ -20,7 +20,8 @@ let actriz2 = {
     name: "Liv",
     personaje: "Arwen",
     walk: function () {
-        console.log("La actriz camina")
+        "La actriz camina"
+
     }
 }
 actriz2.walk()
