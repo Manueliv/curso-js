@@ -45,10 +45,10 @@ if (edad < 18 && edad >= 1 ) {
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad 
 
-let a = edad = 25 
-let b = edad >= 18 ? console.log("Es adulto") : console.log ("Es menor")
-console.log (b)
-
+let a
+let b  
+let c = edad >= 18 
+c ? console.log(a = "Es adulto") : console.log(b = "Menor")
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 let mes = "julio"
