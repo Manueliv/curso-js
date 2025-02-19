@@ -32,7 +32,7 @@ if (numero > 0 ) {
     console.log("Es Cero")
 }
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
-let edad = 15
+let edad = 14
 
 if (edad < 18 && edad >= 1 ) {
     console.log("Aun no puede votar, le faltan ", + 18 - edad + " años")
@@ -45,10 +45,9 @@ if (edad < 18 && edad >= 1 ) {
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
 //    dependiendo de la edad 
 
-let a
-let b  
+ 
 let c = edad >= 18 
-c ? console.log(a = "Es adulto") : console.log(b = "Es menor")
+c ? console.log("Es adulto") : console.log( "Es menor")
 
 /*
 el ejercicio anterior (5) depende del anterior a este (4) ya que toma el valor de la variable "edad", 
@@ -133,6 +132,7 @@ switch (lenguage){
         saludo = "idioma incorrecto"
 }
 console.log(saludo)
+
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 let mesS = "noviembre"
 let estacion2 
