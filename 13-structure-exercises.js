@@ -32,7 +32,7 @@ let myMap = new Map([
     [4, "Abril"],
     [5, "Mayo"],
     [6, "Junio"],
-    [7, "Julio"],
+    [7, "Julio"], 
     [8, "Agosto"],
     [9, "Septiembre"],
     [10, "Octubre"],
@@ -44,7 +44,7 @@ console.log(myMap)
 let comprobación 
 comprobación = myMap.has(5)
 if (comprobación == true){
-    console.log(myMap.get(5))
+    console.log("El mes en quinto lugar existe y es "+myMap.get(5))
 }else {
     console.log("Ese valor no existe")
 }
@@ -54,12 +54,12 @@ myMap.set("claveArray", meses = [myMap.get(6), myMap.get(7), myMap.get(8)])
 console.log(myMap)
 
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
-let array2 = [1, "tigre", 5]
+let array2 = [1, "tigre", 5]//creando el arrar con valores 
 console.log(array2)
-set2 = new Set(array2)
+set2 = new Set(array2)//transformando el arrar en un set
 console.log(set2)
 
-map2 = new Map([
-    ["nombreSet", set2]
+map2 = new Map([              //creando el map 
+    ["nombreSet", set2]     //indicando como clave el nombre valorSet y como valor pasamos el set2 que es donde esta el set
 ])
 console.log(map2)

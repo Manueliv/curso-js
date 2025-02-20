@@ -1,6 +1,6 @@
 // map
 
-let myMap = new Map()
+let myMap = new Map()// crear un map
 
 console.log(myMap)
 
