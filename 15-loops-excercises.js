@@ -69,13 +69,14 @@ let fibo = [0, 1]
 for (let i = 2; i < 10; i++) {
     fibo[i] = fibo[i - 1] + fibo[i -2]
 }
+console.log("cadena de fibonacci  con array:")
 console.log(fibo)
 
 // fibonacci solo con for 
 let fibonacci = 0
 let numeronew = 0
 let numeroSiguiente = 1
-console.log("cadena de fibonacci:")
+console.log("cadena de fibonacci  con for:")
 
 for (let i = 0; i < 10; i++) {
     fibonacci = fibonacci  + numeronew
@@ -85,7 +86,7 @@ for (let i = 0; i < 10; i++) {
 }
  
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
-let arrayNum = [14, 25, 3, 8, 5, 7, 19, 10 ]
+let arrayNum = [14, 25, 3, 8, 5, 7, 19, 10, 15 ]
 let newArray = []
 
 for (let i = 0; i < arrayNum.length; i++) {
