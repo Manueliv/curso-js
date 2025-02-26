@@ -22,3 +22,14 @@ let orden = ["primer ", "segundo ", "tercer ", "cuarto ", "quinto ", "Sexto "]
 for (let i = 0; i < nombres.length; i++) {
     console.log(orden[i] +"nombre: " + nombres[i])
 }
+
+// 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números menores a 10
+let arrayNum = [14, 25, 3, 8, 5, 7, 19, 10, 15, 27 ]
+let newArray = []
+
+for (let i = 0; i < arrayNum.length; i++) {
+    if (arrayNum[i] < 10 || arrayNum[i] > 25 ){ //menores a 10 y mayores a 25 con el or (||)
+        newArray.push(arrayNum[i])
+    }
+}
+console.log(newArray)
