@@ -12,3 +12,13 @@ function comunes(array1, array2) {
 }
 let resultado = comunes(array1, array2)
 console.log(resultado)
+
+
+// prueba para modificar este ejercicio, haciendo que indique el orden de los nombres
+// 4. Dado un array de nombres, usa un bucle para imprimir cada nombre en la consola
+let nombres = ["Reina", "Gemma", "Liv", "Nicolle", "Arwen", "Kate" ]
+let orden = ["primer ", "segundo ", "tercer ", "cuarto ", "quinto ", "Sexto "]
+
+for (let i = 0; i < nombres.length; i++) {
+    console.log(orden[i] +"nombre: " + nombres[i])
+}
