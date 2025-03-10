@@ -27,7 +27,7 @@ const myFunc2 = function (name){
 
 myFunc2("Manuel Solo")
 
-//Arrow functios 
+//Arrow functions 
 
 const myFunc3 = (name) => {
     console.log(`¡Hola, ${name}!`)

@@ -7,7 +7,7 @@ function suma(a, b ) {
 suma(3, 4)
  
 // 2. Crea una función que reciba un array de números y devuelva el mayor de ellos
-const myArray = [3, 5, 7, 1, 25, 40, 8, 3, 50]
+const myArray = [3, 5, 7, 1, 25, 40, 8, 3, 50, 10]
 
 function numMayor() {
     let result = 0
