@@ -1,8 +1,9 @@
 // Destructuring and spreading = Destructuración y propagación 
 
-let myArray = [1, 2, 3, 4]
+let myArray = [1, 2, 3, 4] //Este es un array 
 
-let person = {
+
+let person = {          //Este es un objeto
     name: "Manuel",
     age: 36,
     alias: "Manueliv"
