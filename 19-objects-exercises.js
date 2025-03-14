@@ -19,9 +19,9 @@ console.log(actriz)
 let actriz2 = {
     name: "Liv",
     personaje: "Arwen",
+    lastname: "Tyler",
     walk: function () {
         "La actriz camina"
-
     }
 }
 actriz2.walk()
@@ -44,7 +44,10 @@ let  objetoAnidado = {
 }
 
 // 8. Accede y muestra el valor de las propiedades anidadas
+console.log(objetoAnidado.caracteristicas)
 
 // 9. Comprueba si los dos objetos creados son iguales
-
+console.log(objetoAnidado == objetoAnidado.caracteristicas) // con JSON.stringify() solo se pasaria  a string   
+                                                             
 // 10. Comprueba si dos propiedades diferentes son iguales
+console.log(objetoAnidado.articulo == objetoAnidado.caracteristicas)
