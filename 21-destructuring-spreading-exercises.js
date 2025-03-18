@@ -37,12 +37,58 @@ console.log(nuevoNombre2 + " Nuevo nombre de varible 2")
 
 // 5. Usa desestructuración para extraer dos propiedades de un objeto anidado
 
+let person3  = {
+    name: "Manuel",
+    age: 36,
+    alias: "Manueliv",
+    walk: function () {
+        console.log("La persona camina")
+    }, 
+    job: {
+        name: "Programador",
+        exp: 10, 
+        work: function () {
+            console.log(`La persona de ${this.exp} años de experiencia trabaja.`)
+        }
+    }
+}
+
+let {job: {exp: expe}, job: {name: jobName} } = person3
+console.log(expe + " Esta es una propiedad obtenida de un objeto anidado")
+console.log(jobName  + " Esta es una propiedad obtenida de un objeto anidado")
+person3.job.work()
+
 // 6. Usa propagación para combinar dos arrays en uno nuevo
+
+let myArray2 = [5, 6, "otro valor ", 7]
+
+let myArrayCombinado = [...myArray, ...myArray2]
+console.log(myArrayCombinado)
+
 
 // 7. Usa propagación para crear una copia de un array
 
+let myArrayCopia = [...myArrayCombinado]
+console.log(myArrayCopia)
+
 // 8. Usa propagación para combinar dos objetos en uno nuevo
 
+let objec2 = {   //Creación del segundo objeto para combinar con el primero 
+    lastName: "Solorzano",
+    height: 1.72,
+    salary: 1000
+}
+
+let objecsCombine =  {...person, ...objec2} //Usando propagación para combinar objeto(person) con objrto(object2)
+console.log(objecsCombine)
+
 // 9. Usa propagación para crear una copia de un objeto
+let objecsCopi = {...objecsCombine}
+console.log(objecsCombine)
+
 
 // 10. Combina desestructuración y propagación
+
+let objec4 = {} = objecsCombine
+let nuevoValoresObjeto = {...objecsCombine, newValue: "Nuevo valor"}
+console.log(nuevoValoresObjeto)

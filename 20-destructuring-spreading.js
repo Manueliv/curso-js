@@ -89,7 +89,7 @@ console.log(jobName)
 
 //Sintaxis arrays
 
-let myArray2 = [...myArray, 5, 6] // es como toma ryb array y agregar mas valores
+let myArray2 = [...myArray, 5, 6] // es como toma un array y agregar mas valores
 console.log(myArray2)
 
 //Copia  de arrays
