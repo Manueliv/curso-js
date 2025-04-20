@@ -55,6 +55,22 @@ console.log(Automovil.color)
 
 // 7. Crea una clase que haga uso de getters y setters
 
+class Persona {
+  constructor(nombre) {
+    this._nombre = nombre; // Usamos _nombre como propiedad interna
+  }
+
+  get nombre() {
+    return this._nombre.toUpperCase(); // Devuelve el nombre en mayúsculas
+  }
+}
+
+const persona = new Persona("Manuel");
+console.log(persona.nombre); // "MANUEL"
+
+
+// 8. Modifica la clase con getters y setters para que use propiedades privadas
+
 class  GetUser {
   #name
   #alias
@@ -85,8 +101,6 @@ console.log(user.id)
 
 user.id = "Manueliv25"
 console.log(user.id)
-
-// 8. Modifica la clase con getters y setters para que use propiedades privadas
 
 // 9. Utiliza los get y set y muestra sus valores
 
