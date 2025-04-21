@@ -68,6 +68,24 @@ class Persona {
 const persona = new Persona("Manuel");
 console.log(persona.nombre); // "MANUEL"
 
+class Persona2 {
+  constructor(nombre) {
+    this._nombre = nombre;
+  }
+
+  get nombre() {
+    return this._nombre;
+  }
+
+  set nombre(nuevoNombre) {
+    this._nombre = nuevoNombre.trim(); // Elimina espacios innecesarios
+  }
+}
+
+const persona2 = new Persona2("Lucía");
+persona2.nombre = "   Ana   ";
+console.log(persona2.nombre); // "Ana"
+
 
 // 8. Modifica la clase con getters y setters para que use propiedades privadas
 
