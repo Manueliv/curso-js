@@ -113,6 +113,8 @@ set id(id){
 
 user = new GetUser("Manuel", "Manueliv", "Manu23")
 
+// 9. Utiliza los get y set y muestra sus valores
+
 console.log(user)
 console.log(user.alias)
 console.log(user.id)
@@ -120,6 +122,17 @@ console.log(user.id)
 user.id = "Manueliv25"
 console.log(user.id)
 
-// 9. Utiliza los get y set y muestra sus valores
-
 // 10. Sobrescribe un método de una clase que utilice herencia 
+
+class Moto extends Automovil{
+
+  run(){
+    console.log("La moto avanza")
+  }
+
+}
+
+let honda = new Moto("MotoHonda", "200")
+honda.run()
+myKia.motor()
+myKia.run()
