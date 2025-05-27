@@ -30,11 +30,34 @@ console.table(pcs)
 
 // 5. Utiliza group
 
+console.group("Usuario:")
+console.log("Nombre: Manuel")
+console.log("Edad: 36")
+console.groupEnd()
+
 // 6. Utiliza time
+
+console.time("Tiempo de ejecución 1")
+
+ for (let i = 0; i < 10000; i++){
+
+}
+
+console.timeEnd("Tiempo de ejecución 1")
 
 // 7. Valida con assert si un número es positivo
 
+let num = -17
+console.assert(num >= 1, "El número ingresado debe ser positivo.")
+
 // 8. Utiliza count
+
+console.count("tarea")
+console.count("tarea")
+console.count("tarea")
+console.countReset("tarea")
+console.count("tarea")
+
 
 // 9. Utiliza trace
 
