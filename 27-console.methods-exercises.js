@@ -61,4 +61,16 @@ console.count("tarea")
 
 // 9. Utiliza trace
 
+function funci1() {
+    funci2()
+}
+
+function funci2() {
+console.trace("seguimiento de la función")
+}
+
+funci1()
+
 // 10. Utiliza clear
+
+// console.clear()
