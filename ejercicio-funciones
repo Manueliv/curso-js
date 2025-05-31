@@ -1,0 +1,36 @@
+// Ejercicios de funciones
+
+//1 Crea una función que reciba un nombre y devuelva un saludo
+
+function saludar(nombre) {
+    console.log("¡Hola " + nombre)
+}
+
+saludar("Ana!")
+
+//2 Crea una función que sume dos números
+function sumar(a, b) {
+    return  a + b
+}
+
+let resultado = sumar(5, 6)
+console.log(resultado)
+
+//3 cre auna función que muestre si un número es par o impar
+
+function esPar(numero) {
+    if (numero % 2 === 0) {
+        console.log(`El numero ingresado es: ${numero} y si es par`)
+    }else {
+         console.log(`El numero ingresado es: ${numero} y no es par`)
+    }
+}
+
+ esPar(4)
+
+//4 calcular el area de un triangulo
+
+function calcularArea(base, altura) {
+    return base * altura / 2
+}
+console.log(calcularArea(10,5))
