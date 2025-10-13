@@ -56,7 +56,7 @@ console.log(myMap)
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
 let array2 = [1, "tigre", 5]//creando el arrar con valores 
 console.log(array2)
-set2 = new Set(array2)//transformando el arrar en un set
+set2 = new Set(array2)//transformando el array en un set
 console.log(set2)
 
 map2 = new Map([              //creando el map 
