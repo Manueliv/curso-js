@@ -46,7 +46,8 @@ console.log(mySet)
 mySet.add("manueliv2008@gmail.com")
 mySet.add("manueliv2008@gmail.com")
 mySet.add("manueliv2008@gmail.com")
-// pero cuando cambien aunque sea en un caracater ya es uo diferente y si se guardara
+// pero cuando cambien aunque sea en un caracater ya es uno diferente y si se guardara
 mySet.add("manueliv2008@gmail.com")
 mySet.add("manueliv2008@gmail.com")
 mySet.add("Manueliv2008@gmail.com")//Este si lo guardara poque tinen la m mayuscula por lo tanto es diferente 
+// este es una prueba para saber si ya esta funcionando 
